@@ -5,7 +5,7 @@ set -e
 ## 0.1 conda packages to be installed
 CONDA_PACKAGES='numpy pandas scikit-learn networkx ipython Jupyter pytables'
 ## 0.2 pip packages to be installed
-PIP_PACKAGES='plotly py4j elasticsearch==1.4.0 elasticsearch-dsl==0.0.4 google-api-python-client'
+PIP_PACKAGES='unknownpacksehsdsfjkskfdh py4j elasticsearch==1.4.0 elasticsearch-dsl==0.0.4 google-api-python-client'
 
 echo "echo \$USER: $USER"
 echo "echo \$PWD: $PWD"
