@@ -3,9 +3,9 @@ set -e
 
 # 0. Specify Packages to be installed
 ## 0.1 conda packages to be installed
-CONDA_PACKAGES='numpy pandas scikit-learn networkx seaborn bokeh ipython Jupyter pytables'
+CONDA_PACKAGES='numpy pandas scikit-learn networkx ipython Jupyter pytables'
 ## 0.2 pip packages to be installed
-PIP_PACKAGES='plotly py4j'
+PIP_PACKAGES='plotly py4j elasticsearch==1.4.0 elasticsearch-dsl==0.0.4 google-api-python-client'
 
 echo "echo \$USER: $USER"
 echo "echo \$PWD: $PWD"
@@ -61,7 +61,7 @@ else
     echo ".bashrc successfully appended!"
 fi
 
-echo "Activating $CONDA_ENV_NAME environment..."
-source activate $CONDA_ENV_NAME
+#echo "Activating $CONDA_ENV_NAME environment..."
+#source activate $CONDA_ENV_NAME
 
 
