@@ -37,7 +37,7 @@ if conda info --envs | grep -q $CONDA_ENV_NAME
     then
     echo "conda environment $CONDA_ENV_NAME detected, skipping env creation..."
     echo "Activating $CONDA_ENV_NAME environment..."
-    source activate $CONDA_ENV_NAME
+    #source activate $CONDA_ENV_NAME
     echo "Installing / updating conda packages: $CONDA_PACKAGES"
     conda install $CONDA_PACKAGES
     pip install $PIP_PACKAGES
@@ -63,6 +63,6 @@ fi
 
 
 echo "Activating $CONDA_ENV_NAME environment..."
-source activate $CONDA_ENV_NAME
+#source activate $CONDA_ENV_NAME
 
 
